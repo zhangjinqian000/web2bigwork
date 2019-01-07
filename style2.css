@@ -2,7 +2,7 @@
 * @Author: 17334
 * @Date:   2019-01-05 10:39:48
 * @Last Modified by:   17334
-* @Last Modified time: 2019-01-05 22:45:21
+* @Last Modified time: 2019-01-07 09:56:47
 */
 *{
 	padding: 0;
@@ -432,10 +432,7 @@ ul,li{
 	height: 31px;
 	margin-left: 28px;
 	border-style : solid;
-	border-bottom-width: 1px;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-left-width: 1px;
+	border-width: 1px;
 	border-color: #ff0853;
 	float: left;
 }
