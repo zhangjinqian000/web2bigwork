@@ -2,7 +2,7 @@
 * @Author: 17334
 * @Date:   2019-01-05 10:38:46
 * @Last Modified by:   17334
-* @Last Modified time: 2019-01-06 18:45:36
+* @Last Modified time: 2019-01-14 18:59:53
 */
 //顶部悬浮
 window.onload = function(){
@@ -76,6 +76,9 @@ coun1.onclick = function(){
 		--i;
 		coun2.innerHTML = i;
 	}
+	if(i==0){
+		coun1.style.cursor = "not-allowed";
+	}
 }
 coun1.onmouseover = function(){
 	if(i>0){
@@ -88,6 +91,9 @@ coun3.onclick = function(){
 	if(i<5){
 		++i;
 		coun2.innerHTML = i;
+	}
+	if(i>=5){
+		coun3.style.cursor = "not-allowed";
 	}
 }
 coun3.onmouseover = function(){
